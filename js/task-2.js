@@ -29,7 +29,7 @@ const elements = images.map(image => {
   const li = document.createElement('li');
   li.classList.add('gallery-item');
   const img = document.createElement('img');
-  img.scr = image.url;
+  img.src = image.url;
   img.alt = image.alt;
   li.appendChild(img);
   return li;
